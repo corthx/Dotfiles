@@ -2,11 +2,11 @@
 
 # Dotfiles
 
-![Latest commit](https://img.shields.io/github/last-commit/Curs3W4ll/Dotfiles?style=flat)
+![Latest commit](https://img.shields.io/github/last-commit/corthx/Dotfiles?style=flat)
 
-Personal Dotfiles. More information is in the [wiki](https://github.com/Curs3W4ll/Dotfiles/wiki)
+Personal Dotfiles. More information is in the [wiki](https://github.com/corthx/Dotfiles/wiki)
 [Deployment](#deployment) • [Zsh](#zsh) • [Neovim](#neovim) • [Terminator](#terminator)
-[Screenshots](https://github.com/Curs3W4ll/Dotfiles/wiki/Screenshots)
+[Screenshots](https://github.com/corthx/Dotfiles/wiki/Screenshots)
 
 </div>
 
@@ -15,13 +15,13 @@ Hey you, what's up? :wave:
 If you are here, you probably want to check my configuration for one of the tools I use (zsh, neovim...). :computer:
 Here are some things you should know before diving in. :bath:
 
-First, you should know this repository comes from [Github](https://github.com/Curs3W4ll/Dotfiles) :octocat:, if you are already on Github jump to the next paragraph.
-The GitHub repository provides more features and links (wiki...) so it is recommended to see [this repository on Github](https://github.com/Curs3W4ll/Dotfiles).
+First, you should know this repository comes from [Github](https://github.com/corthx/Dotfiles) :octocat:, if you are already on Github jump to the next paragraph.
+The GitHub repository provides more features and links (wiki...) so it is recommended to see [this repository on Github](https://github.com/corthx/Dotfiles).
 
 I manage my dotfiles using [chezmoi](https://www.chezmoi.io/). :house:
 More information in the [deployment section](#deployment).
 
-I'm maintaining these configurations (except for the old Neovim vimscript one), so you can [report bugs](https://github.com/Curs3W4ll/Dotfiles/issues/new/choose) and [see what I plan to do](https://github.com/Curs3W4ll/Dotfiles/issues?q=is%3Aissue+is%3Aopen+label%3Acoming) (help is welcomed :love_letter:).
+I'm maintaining these configurations (except for the old Neovim vimscript one), so you can [report bugs](https://github.com/corthx/Dotfiles/issues/new/choose) and [see what I plan to do](https://github.com/corthx/Dotfiles/issues?q=is%3Aissue+is%3Aopen+label%3Acoming) (help is welcomed :love_letter:).
 
 ## Deployment
 
@@ -56,10 +56,10 @@ See [official installation methods](https://www.chezmoi.io/install/).
 ### Use these dotfiles on a new machine
 
 ```sh
-chezmoi init --apply Curs3W4ll
+chezmoi init --apply corthx
 ```
 
-As `Curs3W4ll` is my username, so `chezmoi` will retrieve my `Dotfiles` repository on my account.
+As `corthx` is my username, so `chezmoi` will retrieve my `Dotfiles` repository on my account.
 
 ### Sync to the latest dotfiles version
 
@@ -94,7 +94,7 @@ Execute the following command to install my ZSH configuration.
 See [configuration details](#zsh).
 
 ```sh
-sh -c 'rm -f /tmp/zshInstaller.sh && curl -H "Cache-Control: no-cache, no-store" -fLo /tmp/zshInstaller.sh --create-dirs "https://raw.githubusercontent.com/Curs3W4ll/Dotfiles/main/installers/ZSH.sh" && chmod +x /tmp/zshInstaller.sh && /tmp/./zshInstaller.sh'
+sh -c 'rm -f /tmp/zshInstaller.sh && curl -H "Cache-Control: no-cache, no-store" -fLo /tmp/zshInstaller.sh --create-dirs "https://raw.githubusercontent.com/corthx/Dotfiles/main/installers/ZSH.sh" && chmod +x /tmp/zshInstaller.sh && /tmp/./zshInstaller.sh'
 ```
 
 </details>
@@ -108,7 +108,7 @@ Execute the following command to install my Terminator configuration.
 See [configuration details](#terminator).
 
 ```sh
-sh -c 'rm -f /tmp/terminatorInstaller.sh && curl -H "Cache-Control: no-cache, no-store" -fLo /tmp/terminatorInstaller.sh --create-dirs "https://raw.githubusercontent.com/Curs3W4ll/Dotfiles/main/installers/Terminator.sh" && chmod +x /tmp/terminatorInstaller.sh && /tmp/./terminatorInstaller.sh'
+sh -c 'rm -f /tmp/terminatorInstaller.sh && curl -H "Cache-Control: no-cache, no-store" -fLo /tmp/terminatorInstaller.sh --create-dirs "https://raw.githubusercontent.com/corthx/Dotfiles/main/installers/Terminator.sh" && chmod +x /tmp/terminatorInstaller.sh && /tmp/./terminatorInstaller.sh'
 ```
 
 </details>
@@ -122,7 +122,7 @@ Execute the following command to install my Git configuration.
 See [configuration details](#git).
 
 ```sh
-sh -c 'rm -f /tmp/gitInstaller.sh && curl -H "Cache-Control: no-cache, no-store" -fLo /tmp/gitInstaller.sh --create-dirs "https://raw.githubusercontent.com/Curs3W4ll/Dotfiles/main/installers/Git.sh" && chmod +x /tmp/gitInstaller.sh && /tmp/./gitInstaller.sh'
+sh -c 'rm -f /tmp/gitInstaller.sh && curl -H "Cache-Control: no-cache, no-store" -fLo /tmp/gitInstaller.sh --create-dirs "https://raw.githubusercontent.com/corthx/Dotfiles/main/installers/Git.sh" && chmod +x /tmp/gitInstaller.sh && /tmp/./gitInstaller.sh'
 ```
 
 </details>
@@ -136,7 +136,7 @@ Execute the following command to install my Neovim configuration (Lua version).
 See [configuration details](#neovim).
 
 ```sh
-sh -c 'rm -f /tmp/nvimLuaInstaller.sh && curl -H "Cache-Control: no-cache, no-store" -fLo /tmp/nvimLuaInstaller.sh --create-dirs "https://raw.githubusercontent.com/Curs3W4ll/Dotfiles/main/installers/Neovim_lua.sh" && chmod +x /tmp/nvimLuaInstaller.sh && /tmp/./nvimLuaInstaller.sh'
+sh -c 'rm -f /tmp/nvimLuaInstaller.sh && curl -H "Cache-Control: no-cache, no-store" -fLo /tmp/nvimLuaInstaller.sh --create-dirs "https://raw.githubusercontent.com/corthx/Dotfiles/main/installers/Neovim_lua.sh" && chmod +x /tmp/nvimLuaInstaller.sh && /tmp/./nvimLuaInstaller.sh'
 ```
 
 ##### Old Vimscript version
@@ -147,7 +147,7 @@ See [configuration details](#neovim).
 **:warning: This configuration is not maintained anymore, use it at your own risk**
 
 ```sh
-sh -c 'rm -f /tmp/nvimVSInstaller.sh && curl -H "Cache-Control: no-cache, no-store" -fLo /tmp/nvimVSInstaller.sh --create-dirs "https://raw.githubusercontent.com/Curs3W4ll/Dotfiles/main/installers/Neovim_vimscript.sh" && chmod +x /tmp/nvimVSInstaller.sh && /tmp/./nvimVSInstaller.sh'
+sh -c 'rm -f /tmp/nvimVSInstaller.sh && curl -H "Cache-Control: no-cache, no-store" -fLo /tmp/nvimVSInstaller.sh --create-dirs "https://raw.githubusercontent.com/corthx/Dotfiles/main/installers/Neovim_vimscript.sh" && chmod +x /tmp/nvimVSInstaller.sh && /tmp/./nvimVSInstaller.sh'
 ```
 
 </details>
@@ -156,7 +156,7 @@ sh -c 'rm -f /tmp/nvimVSInstaller.sh && curl -H "Cache-Control: no-cache, no-sto
 
 In this Dotfiles repository, you will find configurations I use, more details below.
 
-You will also find some documentation about common topics [in the wiki](https://github.com/Curs3W4ll/Dotfiles/wiki).
+You will also find some documentation about common topics [in the wiki](https://github.com/corthx/Dotfiles/wiki).
 
 ---
 
@@ -165,7 +165,7 @@ You will also find some documentation about common topics [in the wiki](https://
 My ZSH configuration defines aliases, colors and other things.  
 My ZSH configuration uses OhMyZSH with plugins and the p10k theme.
 
-[More information in the wiki](https://github.com/Curs3W4ll/Dotfiles/wiki/ZSH)
+[More information in the wiki](https://github.com/corthx/Dotfiles/wiki/ZSH)
 
 ---
 
@@ -174,7 +174,7 @@ My ZSH configuration uses OhMyZSH with plugins and the p10k theme.
 My Terminator configuration defines how the Terminator will look.  
 It will also enable new key binds to make Terminator more easy to use.
 
-[More information in the wiki](https://github.com/Curs3W4ll/Dotfiles/wiki/Terminator)
+[More information in the wiki](https://github.com/corthx/Dotfiles/wiki/Terminator)
 
 ---
 
@@ -182,7 +182,7 @@ It will also enable new key binds to make Terminator more easy to use.
 
 My ITerm2 configuration defines how the settings for ITerm2 (settings & profiles).
 
-[More information in the wiki](https://github.com/Curs3W4ll/Dotfiles/wiki/ITerm2)
+[More information in the wiki](https://github.com/corthx/Dotfiles/wiki/ITerm2)
 
 ---
 
@@ -190,7 +190,7 @@ My ITerm2 configuration defines how the settings for ITerm2 (settings & profiles
 
 My Git configuration defines simple config such as the username and email used when committing changes.
 
-[More information in the wiki](https://github.com/Curs3W4ll/Dotfiles/wiki/Git)
+[More information in the wiki](https://github.com/corthx/Dotfiles/wiki/Git)
 
 ---
 
@@ -199,9 +199,9 @@ My Git configuration defines simple config such as the username and email used w
 I previously used a Vimscript Neovim configuration I have built myself on over 2 years. But I wanted to change to the new Lua technology and refresh a bit my configuration.
 
 So I started a new Neovim configuration from scratch using Lua. The goal of this configuration is to boost Neovim as much as possible and I want to make this configuration evolve as much as possible.  
-The idea of this configuration is to be upgraded continuously and frequently. I also want to maintain this configuration, so if you find any bug or want a new feature, [please create a new issue](https://github.com/Curs3W4ll/Dotfiles/issues/new/choose).
+The idea of this configuration is to be upgraded continuously and frequently. I also want to maintain this configuration, so if you find any bug or want a new feature, [please create a new issue](https://github.com/corthx/Dotfiles/issues/new/choose).
 
-[More information in the wiki](https://github.com/Curs3W4ll/Dotfiles/wiki/Neovim)
+[More information in the wiki](https://github.com/corthx/Dotfiles/wiki/Neovim)
 
 #### Old Vimscript version
 
@@ -210,4 +210,4 @@ So as you may already understand, I do not use this configuration anymore and I 
 
 :warning: If you want to use it, do it at your own risks, I will not provide you any help.
 
-[More information in the wiki](https://github.com/Curs3W4ll/Dotfiles/wiki/Neovim_vimscript)
+[More information in the wiki](https://github.com/corthx/Dotfiles/wiki/Neovim_vimscript)

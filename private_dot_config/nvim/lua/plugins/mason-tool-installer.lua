@@ -2,7 +2,7 @@ return {
   "WhoIsSethDaniel/mason-tool-installer.nvim",
   dependencies = {
     "williamboman/mason.nvim",
-    "Curs3W4ll/NeoKit",
+    "corthx/NeoKit",
   },
   lazy = true,
   opts = function()

@@ -27,7 +27,7 @@ return {
   "mfussenegger/nvim-dap",
   dependencies = {
     "WhoIsSethDaniel/mason-tool-installer.nvim",
-    "Curs3W4ll/NeoKit",
+    "corthx/NeoKit",
   },
   ft = function()
     return require("config.mason-tools").dap.listDapFt()
