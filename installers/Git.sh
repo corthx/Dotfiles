@@ -77,7 +77,7 @@ confirm "Using this script will remove the existing git configuration ('${HOME}/
 
 echo -e "${CyanColor}Cloning Dotfiles to ${dotfilesPath}${NoColor}"
 rm -rf $dotfilesPath
-git clone https://github.com/Curs3W4ll/Dotfiles ${dotfilesPath}
+git clone https://github.com/corthx/Dotfiles ${dotfilesPath}
 
 echo -e "${CyanColor}Temporarily installing chezmoi${NoColor}"
 rm -rf $chezmoi

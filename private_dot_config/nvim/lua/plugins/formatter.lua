@@ -15,7 +15,7 @@ return {
   "mhartington/formatter.nvim",
   dependencies = {
     "WhoIsSethDaniel/mason-tool-installer.nvim",
-    "Curs3W4ll/NeoKit",
+    "corthx/NeoKit",
     "rcarriga/nvim-notify",
   },
   ft = function()

@@ -7,7 +7,7 @@ return {
     "hrsh7th/cmp-nvim-lsp",
     "folke/lazydev.nvim",
     "nvimdev/lspsaga.nvim",
-    "Curs3W4ll/NeoKit",
+    "corthx/NeoKit",
     "rcarriga/nvim-notify",
   },
   event = { "BufReadPre", "BufNewFile" },
